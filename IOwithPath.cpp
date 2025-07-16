@@ -18,3 +18,7 @@ int main ()
     cout << ">= Menulis file, 'q' untuk keluar" << endl;
 
     // flush newline character after cin
+    cin.ignore(); // Remove leftover newline character from input buffer
+
+    while(true){
+        cout << "- ";
