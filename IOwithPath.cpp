@@ -22,3 +22,7 @@ int main ()
 
     while(true){
         cout << "- ";
+         getline(cin, baris); // Read a full line of text from the user
+
+        if (baris == "q")
+            break;
