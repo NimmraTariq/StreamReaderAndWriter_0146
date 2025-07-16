@@ -28,3 +28,7 @@ int main ()
             break;
             outfile << baris << endl; // Write the line to the file
     }
+     outfile.close(); // optional but good practice // Close the output file after writing
+
+    return 0;
+}
