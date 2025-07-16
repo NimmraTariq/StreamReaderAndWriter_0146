@@ -14,3 +14,10 @@ int main (){
       
  catch (exception &e)
  {
+    cout << e.what () << endl; // Handle and display the standard exception message
+
+ }
+ cout << "baris program yang terakir" << endl;
+
+ return 0;
+}
