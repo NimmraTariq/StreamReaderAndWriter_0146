@@ -32,4 +32,20 @@ int main (){
     outfile.close(); // Close the output file
 
 //membuat obyek input file stream dalam mode membaca
+ifstream infile; // Create input file stream object
+
+//membuka file
+infile.open("contohfile.txt");
+
+cout << endl
+<<">= Membuka dan membaca file"<<endl;
+
+// jika file add maka
+if(
+    infile.is_open())
+    {
+        //melakukan perulagan setiap baris
+        while (getline(infile, baris))
+        {
+            //dan tampilkan di sini
 }
