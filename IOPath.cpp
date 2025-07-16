@@ -9,3 +9,14 @@ int main (){
 
     //membuat obyek output file stream dalam mode menulis
     ofstream outfile; // Create output file stream object
+    
+    //membuka file
+    outfile.open("contohfile.txt"); // Open file for writing
+
+    cout<< ">= Menulis file, \'q\' untuk keluar" << endl;
+
+    //unlimited loop untuk menulis
+
+    while (true){
+    cout << "-";
+    //mendapatkan setiap charackter dalam  satu baris
