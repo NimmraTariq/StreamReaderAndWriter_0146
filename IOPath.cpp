@@ -29,4 +29,7 @@ int main (){
 
     //menulisdan memasukkan nilai dari baris ke dalam file 
     outfile<<baris<<endl; // Write line to the file
+    outfile.close(); // Close the output file
+
+//membuat obyek input file stream dalam mode membaca
 }
