@@ -9,3 +9,8 @@ int main (){
     try {
         array <int, 3> data = {10, 20, 30}; // Declare a fixed-size array with 3 integers
        //pesan array integer 3 elemen 
+       cout << data.at(4) << endl; // Attempt to access an out-of-range index
+}
+      
+ catch (exception &e)
+ {
