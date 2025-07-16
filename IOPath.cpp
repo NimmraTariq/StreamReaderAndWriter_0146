@@ -20,3 +20,11 @@ int main (){
     while (true){
     cout << "-";
     //mendapatkan setiap charackter dalam  satu baris
+     getline(cin, baris); // Get a full line of input from user
+
+    //loop akan berhenti jika anda memasukkan character q
+
+    if (baris== "q")
+        break;
+
+    //menulisdan memasukkan nilai dari baris ke dalam file 
