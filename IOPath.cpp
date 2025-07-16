@@ -28,3 +28,5 @@ int main (){
         break;
 
     //menulisdan memasukkan nilai dari baris ke dalam file 
+    outfile<<baris<<endl; // Write line to the file
+}
