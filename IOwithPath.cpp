@@ -26,3 +26,5 @@ int main ()
 
         if (baris == "q")
             break;
+            outfile << baris << endl; // Write the line to the file
+    }
