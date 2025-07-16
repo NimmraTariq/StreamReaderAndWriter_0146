@@ -15,3 +15,8 @@ int main ()
 }
     catch (...){
         //jika selain integer maka blok ini akan dieksekusi
+          cout << "Pernyataan pengecualian dieksekusi" << endl; // Catch-all handler for non-int exceptions
+
+    }
+     return 0;
+}
